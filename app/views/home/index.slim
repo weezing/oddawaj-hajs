@@ -1,5 +1,14 @@
 .container
   .row
     .col-md-4.offset-md-4
-      h1
-        = 'Hello world!'
+      br
+      h1.text-center
+        = 'Kliknij:'
+      br
+  .row
+    .col-md-4.offset-md-4
+      form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"
+        input name="cmd" type="hidden" value="_s-xclick" /
+        input name="hosted_button_id" type="hidden" value="CN98Y46GEYJB8" /
+        input alt=("PayPal – Płać wygodnie i bezpiecznie") border="0" name="submit" src="http://pl.memgenerator.pl/mem-image/oddawaj-hajs-pl-ffffff/d" type="image" /
+        img alt="" border="0" height="1" src="https://www.paypalobjects.com/pl_PL/i/scr/pixel.gif" width="1" /
