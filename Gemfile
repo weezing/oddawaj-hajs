@@ -8,14 +8,15 @@ end
 
 gem 'bootstrap', '~> 4.0.0.beta2.1'
 gem 'coffee-rails', '~> 4.2'
+gem 'figaro'
 gem 'jbuilder', '~> 2.5'
 gem 'jquery-rails'
+gem 'pg'
 gem 'puma', '~> 3.7'
 gem 'rails', '~> 5.1.4'
 gem 'sass-rails', '~> 5.0'
 gem 'slim'
 gem 'slim-rails'
-gem 'sqlite3'
 gem 'uglifier', '>= 1.3.0'
 
 group :development, :test do
